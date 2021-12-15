@@ -1,0 +1,154 @@
+body{
+  font-family: 'Montserrat' ;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* container */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+   font-weight: 900;
+}
+
+/* section */
+.colored-section{
+  background-color: #ff4c68 ;
+  color: #fff ;
+}
+.white-section{
+  background-color: #fff ;
+}
+/*headings*/
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+   font-weight: 900;
+  font-size: 3.5rem ;
+  line-height: 1.5 ;
+}
+/* Navigation Bar */
+.navbar{
+  padding :0 0 4.5rem ;
+}
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+ font-size: 2.3rem ;
+ font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px ;
+}
+.nav-link{
+  font-size: 1.2rem ;
+  font-family: 'Montserrat' ;
+}
+/* Download-Button */
+.download-btn{
+  margin: 5% 3% 5% 0 ;
+}
+/* title-section */
+#title .container-fluid{
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+/* Title_image */
+  .title-img-div{
+  position: relative;
+}
+.title-image{
+  width: 60% ;
+  transform: rotate(25deg);
+     position: absolute;
+    right: 30%;
+}
+ /* media_query */
+
+ @media (max-width: 1000px) {
+   /*.title-img-div{
+     position: static;
+   }*/
+   .hi{
+     text-align: center;
+   }
+   .title-image{
+     width: 60% ;
+     transform: rotate(0);
+      position: static;
+       right: 30%;
+   }
+ }
+/*Features*/
+#features{
+      background-color: #fff ;
+     position: relative;
+}
+.features-box{
+  padding: 4.5% ;
+}
+.h3f{
+  font-size: 1.3rem ;
+}
+.fp{
+  color: #8f8f8f;
+}
+.icon{
+  color: #ef8172 ;
+  margin-bottom: 1rem ;
+}
+.icon:hover{
+  color: #ff4c68 ;
+}
+
+/* Testimonials */
+
+#testimonials{
+  background-color: #ef8172 ;
+}
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  padding: 20px;
+}
+#press{
+  padding-bottom: 3% ;
+  background-color: #ef8172 ;
+}
+.testimonials-h2{
+  font-size: 3rem ;
+  line-height: 1.5 ;
+}
+.press-logo{
+ width: 15% ;
+ margin: 20px 20px 50px ;
+}
+
+/* pricing_section */
+
+#pricing{
+  padding: 100px ;
+}
+.pricong-col{
+  padding: 3% 2% ;
+}
+.pricing-h2{
+  font-size: 3rem ;
+  line-height: 1.5 ;
+}
+
+/* call-to-action */
+
+.btn-cta{
+  margin: 5% 3% 5% 0 ;
+}
+
+/* footer */
+
+#footer{
+  background-color: #fff ;
+}
+.social-icon{
+  margin: 20px 10px ;
+}
